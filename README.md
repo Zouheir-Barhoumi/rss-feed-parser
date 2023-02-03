@@ -19,7 +19,7 @@ npm install
 
 4. Create a .env file with the following environment variables:
 ```
-npm install MONGO_URI=mongodb://localhost/rss_feed
+npm install MONGO_URI=mongodb://<username>:<password>@<hostname>:<port>/<database-name>
 PORT=8080
 ```
 
